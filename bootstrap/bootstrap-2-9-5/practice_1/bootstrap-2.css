@@ -1,0 +1,19 @@
+body {
+    padding: 20px;
+}
+.plava {
+    background-color: rgb(57, 151, 175);
+    height: 101px ;
+    margin: 10px ;
+}
+
+.thicker {
+    height: 202px;
+}
+.ljubicanstvena {
+    background-color: rgb(240, 124, 240);
+}
+
+.siva {
+    background-color: grey;
+}

@@ -1,0 +1,27 @@
+.bg-color {
+    background-color: rgb(158, 25, 25);
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.main-banner {
+    width: 100%;
+}
+
+.card-margin {
+    margin: 20px 0;
+}
+
+.special {
+    background-color: rgb(187, 123, 26);
+    width: 95%;
+    float: right;
+    margin-top: 10px;
+    padding: 5px;
+}
