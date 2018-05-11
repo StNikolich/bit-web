@@ -1,13 +1,12 @@
-@import"_variables";
+@import "_variables";
 
- 
-*{
+* {
   padding: 0;
   margin: 0;
 }
 main {
   height: 500px;
-  background-color: $green-bg ;
+  background-color: $green-bg;
   padding: 50px;
   color: white;
 }
@@ -22,16 +21,16 @@ h2 {
   margin-bottom: 17px;
 }
 main {
-    p {
-  text-align: center;
-}
+  p {
+    text-align: center;
+  }
 }
 h1 {
   text-align: center;
 }
 .portfolio {
   img {
-    width: 80%;
+    width: 100%;
     display: block;
     margin: 10px auto;
   }
@@ -42,37 +41,59 @@ h1 {
   padding: 20px;
 }
 .about {
+  padding-bottom: 20px;
   h1 {
     padding-top: 30px;
   }
 }
 .about {
-    button {
-        margin: 0px auto ;
-        display: block;
-        margin-bottom: 70px;
-    }
+  button {
+    margin: 0px auto;
+    display: block;
+    margin-bottom: 70px;
+  }
 }
 .send-button {
-    background-color: $green-bg;
-    border: 1px solid $green-bg;
+  background-color: $green-bg;
+  border: 1px solid $green-bg;
 }
 .send-button:hover {
-    background-color: rgb(7, 70, 70);
-    border: 1px solid $green-bg;
+  background-color: rgb(7, 70, 70);
+  border: 1px solid $green-bg;
 }
 footer {
-    background-color: rgb(22, 62, 99);
-    color:white;
-    padding: 30px;
-    margin-top: 50px;
+  background-color: rgb(22, 62, 99);
+  color: white;
+  padding: 30px;
+  margin-top: 50px;
+
+  h4 {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .grey-text {
+    color: rgb(117, 93, 93);
+    font-size: 85%;
+    padding: 0px;
+    margin: 0px;
+  }
 }
-footer {
-    h4 {
-        text-align: center;
-    }
-    p {
-        text-align: center;
-    }
+.kruzic {
+  padding: 2px;
+  padding-bottom: 15px;
+}
+.we {
+  padding-bottom: 40px;
+}
+.loc {
+  padding-bottom: 18px;
+}
+.around {
+  padding-bottom: 15px;
+}
+.more {
+  padding-bottom: 15px;
 }
 

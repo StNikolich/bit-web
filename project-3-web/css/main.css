@@ -24,7 +24,7 @@ h1 {
   text-align: center; }
 
 .portfolio img {
-  width: 80%;
+  width: 100%;
   display: block;
   margin: 10px auto; }
 
@@ -33,8 +33,10 @@ h1 {
   background-color: #095e4b;
   padding: 20px; }
 
-.about h1 {
-  padding-top: 30px; }
+.about {
+  padding-bottom: 20px; }
+  .about h1 {
+    padding-top: 30px; }
 
 .about button {
   margin: 0px auto;
@@ -54,10 +56,30 @@ footer {
   color: white;
   padding: 30px;
   margin-top: 50px; }
+  footer h4 {
+    text-align: center; }
+  footer p {
+    text-align: center; }
+  footer .grey-text {
+    color: #755d5d;
+    font-size: 85%;
+    padding: 0px;
+    margin: 0px; }
 
-footer h4 {
-  text-align: center; }
-footer p {
-  text-align: center; }
+.kruzic {
+  padding: 2px;
+  padding-bottom: 15px; }
+
+.we {
+  padding-bottom: 40px; }
+
+.loc {
+  padding-bottom: 18px; }
+
+.around {
+  padding-bottom: 15px; }
+
+.more {
+  padding-bottom: 15px; }
 
 /*# sourceMappingURL=main.css.map */
