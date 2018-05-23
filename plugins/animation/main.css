@@ -1,0 +1,11 @@
+body {
+    position: relative;
+}
+
+.move {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    position: absolute;
+    border: 3px dashed rgb(18, 149, 167);
+}
